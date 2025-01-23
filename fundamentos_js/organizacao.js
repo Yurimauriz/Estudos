@@ -1,11 +1,11 @@
-let numero1 = 10
-let numero2 = 95
+console.log("Sentença de código");
 
-soma = numero1 + numero2
+{
+  console.log("Bloco de código");
+}
 
-if (soma > 100) {
-    console.log("A soma é maior que 100")
-    
-} else {
-    console.log("A soma é menor ou igual a 100")
+{
+  {
+    console.log("Bloco de código dentro de outro bloco");
+  }
 }
